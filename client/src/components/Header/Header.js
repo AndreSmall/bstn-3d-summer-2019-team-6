@@ -1,22 +1,27 @@
-import React from "react";
+import React from 'react';
 import './Header.scss';
 class Header extends React.Component {
-
-  render(){
+  render() {
     return (
       <>
-      <div className="header">
-        <ul className="buttons">
-          <li><a href="#one">section one</a></li>
-          <li><a>section two</a></li>
-          <li><a>section three</a></li>
-          <li><a>section four</a></li>
-          
-        </ul>
-      </div>
-
+        <div className='header'>
+          <ul className='buttons'>
+            <li>
+              <a href='#one'>section one</a>
+            </li>
+            <li>
+              <a href='#two'>section two</a>
+            </li>
+            <li>
+              <a href='#three'>section three</a>
+            </li>
+            <li>
+              <a href='#four'>section four</a>
+            </li>
+          </ul>
+        </div>
       </>
-    )
+    );
   }
 }
 

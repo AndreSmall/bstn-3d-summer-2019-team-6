@@ -1,17 +1,15 @@
-import React from "react";
+import React from 'react';
 import './sections.scss';
 
 class Section2 extends React.Component {
-
-  render(){
+  render() {
     return (
       <>
-      <div className="sectionTwo">
-      <p className="section">this a section</p>        
-      </div>
-
+        <div id='two' className='sectionTwo'>
+          <p className='section'>this a section</p>
+        </div>
       </>
-    )
+    );
   }
 }
 
