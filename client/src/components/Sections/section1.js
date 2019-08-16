@@ -6,7 +6,12 @@ class Section1 extends React.Component {
     return (
       <>
         <div id='sectionOne' className='sectionOne'>
-          <p className='section'>this a section</p>
+          <h1>Digital Technology</h1>
+          <p className='section'>
+            The adoption of digital technology is transforming the world. When
+            entering the workforce it’s important to understand the marketplace
+            and the influences on industry.
+          </p>
         </div>
       </>
     );

@@ -29,6 +29,7 @@ class Header extends React.Component {
   render() {
     return (
       <>
+<<<<<<< HEAD
         <div
           id='navbar'
           className={`header ${this.state.isOpen ? 'opened' : 'shrinked'}`}
@@ -50,6 +51,20 @@ class Header extends React.Component {
             </li>
           </ul>
         </div>
+=======
+      
+      <div id="navbar" className={`header ${this.state.isOpen ? 'opened' : 'shrinked'}`} onScroll={this.scrollFunction}>
+        {/* <img  className="logo" src={logo} alt="logopic"></img> */}
+        <div className={`partOne ${this.state.isOpen ? 'iconLarge' : 'iconSmall'}`}><img src={logo} alt="logo"></img></div>
+        <ul className="header__buttons">
+          <li className="header__buttons--one"><a href="#sectionOne">Home</a></li>
+          <li className="header__buttons--two"><a href="#sectionTwo">Automation</a></li>
+          <li className="header__buttons--three"><a href="#sectionThree">Cloud</a></li>
+          <li className="header__buttons--four"><a href="#sectionFour">Data</a></li>
+        </ul>
+      </div>
+
+>>>>>>> 3b94100a5a1164fbdf8118236e9a2b7e419a7e84
       </>
     );
   }
