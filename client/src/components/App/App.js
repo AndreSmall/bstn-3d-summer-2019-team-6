@@ -5,6 +5,7 @@ import Section1 from '../Sections/section1';
 import Section2 from '../Sections/section2';
 import Section3 from '../Sections/section3';
 import Section4 from '../Sections/section4';
+import Section5 from '../Sections/section5';
 import Header from '../Header/Header';
 class App extends React.Component {
   render() {
@@ -15,6 +16,7 @@ class App extends React.Component {
         <Section2 />
         <Section3 />
         <Section4 />
+        <Section5 />
       </>
     );
   }
