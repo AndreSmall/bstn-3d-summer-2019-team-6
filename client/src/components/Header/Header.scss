@@ -3,14 +3,7 @@
     margin: 0
   }
 
-  .buttons{
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    justify-content: space-evenly;
-    list-style-type: none;
-  }
-  #navbar {
+  .header {
     overflow: hidden;
     background-color: #f1f1f1;
     padding: 90px 10px;
@@ -19,6 +12,11 @@
     width: 100%;
     top: 0;
     z-index: 99;
-  }
 
+    &__buttons{
+      display: flex;
+      flex-direction: row;
+
+    }
+  }
 }
