@@ -110,3 +110,24 @@
 
   }
   
+  .sectionFive {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:white;
+    width: 100%;
+    &__partone {
+      width:509px;
+      height:434px;
+      margin: 0;
+    }
+
+    &__parttwo{
+      width:633px;
+      height:444px;
+      & img {
+      width:633px;
+      height:444px;
+    }
+    }
+
+  }
