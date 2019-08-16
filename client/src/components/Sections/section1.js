@@ -5,7 +5,7 @@ class Section1 extends React.Component {
   render() {
     return (
       <>
-        <div id='one' className='sectionOne'>
+        <div id='sectionOne' className='sectionOne'>
           <p className='section'>this a section</p>
         </div>
       </>
