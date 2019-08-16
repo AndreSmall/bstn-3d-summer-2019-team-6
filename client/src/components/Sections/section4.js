@@ -1,33 +1,28 @@
 import React from 'react';
 import './sections.scss';
-import sec4 from '../Assets/DataAnalytics.png';
+import graph from '../Assets/Cloud.png';
 
 class Section4 extends React.Component {
   render() {
     return (
       <>
         <div id='sectionFour' className='sectionFour'>
-          <div>
-            <div className='text-container'>
-              <h1>Data Analytics</h1>
-              <p className='section'>
-                Data analysis is a process of inspecting, cleansing,
-                transforming and modeling data with the goal of discovering
-                useful information, informing conclusions and supporting
-                decision-making. In today's business world, data analysis plays
-                a role in making decisions more scientific and helping
-                businesses operate more effectively.
-              </p>
-
-              <p>
-                Data analyis has been particularily adopted in the field of
-                medicine and contstruction. Students would be advised to look
-                deeper into these industries.
-              </p>
-            </div>
+          <div className='sectionFour__parttwo'>
+            <img src={graph} />
           </div>
-          <div className='img4'>
-            <img src={sec4} />
+          <div className='sectionFour__partone'>
+            <h1>Cloud Computing</h1>
+            <p>
+              Cloud computing is the delivery of computing services over the
+              Internet to offer faster innovation and flexible resources. Some
+              of these services include servers, storage, databases, networking,
+              software, analytics and intelligence Cloud computing is a big
+              shift from the traditional way businesses think about IT
+              resources. Cloud services are popular because it helps lower your
+              operating costs, run infrastructure more efficiently and scale as
+              your business needs change. Students would be advised to look
+              deeper in cloud computing because of its popularity.
+            </p>
           </div>
         </div>
       </>

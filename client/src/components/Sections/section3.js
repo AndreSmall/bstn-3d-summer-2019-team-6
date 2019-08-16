@@ -1,29 +1,35 @@
-import React from 'react';
-import './sections.scss';
-import sec3 from '../Assets/CloudComputing.png';
+
+import React from "react";
+import "./sections.scss";
+import graph from '../Assets/eBisAutomation.png';
+
 
 class Section3 extends React.Component {
   render() {
     return (
       <>
-        <div id='sectionThree' className='sectionThree'>
-          <div>
-            <img src={sec3} />
+
+        <div id="sectionThree" className="sectionThree">
+          <div className="sectionThree__partone">
+          <h1>Automation</h1>
+          <p className="section">
+            Automation is the technology by which a process or procedure is
+            performed with minimal human assistance. Automation or automatic
+            control is the use of various control systems for operating
+            equipment such as machinery, processes in factories, boilers and
+            heat treating ovens, switching on telephone networks, steering and
+            stabilization of ships, aircraft and other applications and vehicles
+            with minimal or reduced human intervention. Automation will be
+            impacting many jobs in the next 10 years for Canada and should be
+            looked at by students as a field to pursue.
+          </p>            
           </div>
-          <div className='section'>
-            <h1>Cloud Computing</h1>
-            <p>
-              Cloud computing is the delivery of computing services over the
-              Internet to offer faster innovation and flexible resources. Some
-              of these services include servers, storage, databases, networking,
-              software, analytics and intelligence Cloud computing is a big
-              shift from the traditional way businesses think about IT
-              resources. Cloud services are popular because it helps lower your
-              operating costs, run infrastructure more efficiently and scale as
-              your business needs change. Students would be advised to look
-              deeper in cloud computing because of its popularity.
-            </p>
+          <div className="sectionThree__parttwo">
+            <img src={graph}></img>
           </div>
+
+          
+
         </div>
       </>
     );
