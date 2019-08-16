@@ -3,40 +3,82 @@
     margin: 0;
     width:1440px;
   }
-
+  .iconSmall{
+    & img {
+      width:41px;
+      height:41px;
+      margin: 34px 0 36px 105px;
+    }
+  }
+  .iconLarge{
+    & img {
+      width:90px;
+      height:90px;
+      margin: 34px 0 36px 105px;
+    }
+  }
   .shrinked {
+    display: flex;
+    flex-direction: row;
     overflow: hidden;
     background-color: #f1f1f1;
-    padding: 30px 10px;
+    height:80px;
     transition: 0.4s;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 99;
+    box-sizing: border-box;
   }
   .opened {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
     overflow: hidden;
     background-color: #f1f1f1;
-    padding: 90px 10px;
+    height:160px;
     transition: 0.4s;
     position: fixed;
-    width: 100%;
     top: 0;
     z-index: 99;
+    box-sizing: border-box;
   }
   .header {
-    & ul{
+    &__buttons{
+      padding:0;
+      margin-top:80px;
+      margin-left:544px;
+      margin-bottom:35px;
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
       list-style-type: none;
+      & li{
+        align-self: flex-end;
+      }
+      &--one{
+        padding: 0;
+      }
+      &--two{
+        margin-left:120.5px;
+        padding: 0;
+      }
+      &--three{
+        margin-left: 109.5px;
+        padding: 0;
+      }
+      &--four{
+        margin-left:126px;
+        padding: 0;
+      }
+
 
       & a {
         color: black;
         text-align: center;
-        padding: 12px;
         text-decoration: none;
-        font-size: 18px; 
+        font-size: 20px; 
+        font-family: "Avenir",sans-serif;
         line-height: 25px;
         border-radius: 4px;
 
@@ -49,6 +91,8 @@
           background-color: dodgerblue;
           color: white;
         }
+
+
       }
     }
   }
